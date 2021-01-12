@@ -1,9 +1,9 @@
 const express = require("express");
 const morgan = require('morgan');
 
-const AppError = require('./utils/appError');
-const globalErrorHandler = require('./controllers/errorController');
-const billRoutes = require('./routes/billRoutes');
+const AppError = require('./utils/appError.jsc');
+const globalErrorHandler = require('./controllers/errorController.jsc');
+const billRoutes = require('./routes/billRoutes.jsc');
 
 const app = express();
 

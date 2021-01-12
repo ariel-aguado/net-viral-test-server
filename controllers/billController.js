@@ -1,6 +1,6 @@
-const catchAsync = require('../utils/catchAsync');
-const AppError = require('../utils/appError');
-const Bills = require('../models/billModel');
+const catchAsync = require('../utils/catchAsync.jsc');
+const AppError = require('../utils/appError.jsc');
+const Bills = require('../models/billModel.jsc');
 
 exports.getBills = catchAsync(async (req, res, next) => {
 
