@@ -1,5 +1,5 @@
 {
-  "name": "openviraltest",
+  "name": "net-viral-test-server",
   "version": "1.0.0",
   "description": "Testing",
   "main": "index.js",
@@ -9,6 +9,8 @@
   "author": "Ariel Aguado Albear",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
